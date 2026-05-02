@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [unreleased]
 
+## [0.10.1] - 2026-05-02
+
 ### Fixed
 
 - ORCA encoder no longer writes `None` if no basis (e.g., when no basis is needed for an XTB calculation). [#42](https://github.com/coltonbh/qccodec/pull/42) by [TroyNSmith](https://github.com/TroyNSmith)
@@ -264,7 +266,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Can return either `AtomicResult` or `FailedOperation` objects depending on whether calculation succeeded or failed.
 - Tests for all parsers and the main `parse` function.
 
-[unreleased]: https://github.com/coltonbh/qccodec/compare/0.10.0...HEAD
+[unreleased]: https://github.com/coltonbh/qccodec/compare/0.10.1...HEAD
+[0.10.1]: https://github.com/coltonbh/qccodec/releases/tag/0.10.1
 [0.10.0]: https://github.com/coltonbh/qccodec/releases/tag/0.10.0
 [0.9.1]: https://github.com/coltonbh/qccodec/releases/tag/0.9.1
 [0.9.0]: https://github.com/coltonbh/qccodec/releases/tag/0.9.0
